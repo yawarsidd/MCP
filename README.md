@@ -18,9 +18,12 @@
 ## To make Git stop tracking .DS_Store and ensure it’s ignored on GitHub, you need to:
 1. Add .DS_Store to .gitignore
 
-2. Remove any .DS_Store files that are already tracked using the below command:
+2. Remove any .DS_Store files that are already tracked using the command:
+   
+   #### Code
    git rm --cached .DS_Store
 
+   #### Explaination of the above line
    git rm → remove a file from Git tracking.
    --cached → remove it only from Git’s index (staging area), not from your local filesystem.
    .DS_Store → the specific file you want to remove from tracking.
