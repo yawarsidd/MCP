@@ -1,8 +1,13 @@
+## Creating an Environment
+1. conda create -p venv python == 3.12
+2. conda activate venv/
+3. Everytime when we open the vs studio code after cancellation plz activate the conda
+
 ## How to deploy that in Github actions needed:
 
 1. Create a file with name README.md and .gitignore in local.
 2. Go and create a repo without readme.md file in github. (Which contains all the repo command instructions that can be used further)
-3. First step to add the .env file or venv/ to the .gitignore as the git doesn't track it and push to the github.
+3. First step to add the .env file or (venv/) to the .gitignore as the git doesn't track it and push to the github.
 4. Second Step write (git init) in the terminal.
 5. Third Step write (git add .)
 6. Fourth Step write (git commit -m "first commit")
@@ -20,10 +25,10 @@
 
 2. Remove any .DS_Store files that are already tracked using the command:
    
-   #### Code
+   ### Code
    git rm --cached .DS_Store
 
-   #### Explaination of the above line
+   ### Explaination of the above line
    git rm → remove a file from Git tracking.
    --cached → remove it only from Git’s index (staging area), not from your local filesystem.
    .DS_Store → the specific file you want to remove from tracking.
