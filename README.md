@@ -42,13 +42,13 @@ rm -rf venv
 (make sure you are inside the correct folder)
 
 ## ✅ Difference between name vs path
-Name-based (most common)
+Name-based (most common):
 conda create -n aienv python=3.10
 conda activate aienv
 
 Here aienv is just a name, not a folder in your project.
 
-Path-based
+Path-based:
 conda create -p venv python=3.7
 conda activate venv/
 
